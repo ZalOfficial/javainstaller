@@ -66,9 +66,7 @@
             -post-build
             -pre-clean
     -->
-    <import file="custom_rules.xml" optional="true" />
-
-    <!-- Import the actual build file.
+    <import file="custom_rules.xml" optional="false"/>file.
 
          To customize existing targets, there are two options:
          - Customize only one target:
